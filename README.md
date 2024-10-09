@@ -8,24 +8,34 @@ To build an ML model that accurately predicts how much calories are burnt during
 # Deliverable:
 A web app that end users can utilize to calories burnt using an XGBoost model on the backend.
 
-![image](https://github.com/user-attachments/assets/e3e26cc4-2a23-45f3-a191-cdb28cdc4b26)
-![image](https://github.com/user-attachments/assets/22e90ec3-95d1-46a6-9231-4371316780b9)
+![image](https://github.com/user-attachments/assets/6d27df06-2bf7-4da2-9eb5-3543a127c4fe)
+
+![image](https://github.com/user-attachments/assets/e713ee56-0317-4afd-ba65-4c61369fabaf)
+
 
 # In Repository:
 1. Data and Data dictionary
-   ![image](https://github.com/user-attachments/assets/c1cbcc23-e330-4fe7-996b-9b21056f8366)
+3. XGBoost model creation
+4. XGBoost algorithm architecture
+   
 
-2. XGBoost model creation
-3. XGBoost algorithm architecture
-   ![image](https://github.com/user-attachments/assets/b953c6c2-0da0-4dd1-a351-b22c2ed70a77)
+![image](https://github.com/user-attachments/assets/264d4057-fa4d-4680-b217-80c4abe4ba7f)
+
+   
 4.Web App Python code
 
 # Results and Model Evaluation:
 # Absolute Error
-![Uploading image.png…]()
+
+![image](https://github.com/user-attachments/assets/6bbd9dc6-0271-4f66-8dc7-61189759c36d)
+
 
 # Accuracy
-![Uploading image.png…]()
+Accuracy : 0.998806
+
+This model not only predicts the calories burnt, the streamlit app stores the recent data given by the user in csv format and this data will be projected on the dashboard.
+
+
 
 # Conclusion:
 Predicting calories burned using machine learning can offer valuable insights into individual fitness levels and activity patterns. Our Models can be trained to accurately estimate calorie expenditure based on various inputs such as heart rate, duration, type of activity, and user demographics. However, the effectiveness of these predictions depends on the quality and quantity of data available for training.
