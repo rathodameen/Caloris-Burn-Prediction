@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Calories-Burnt-Prediction-Streamlit-App
 # Project Purpose:
 To demonstrate a full ML project from scratch to deployment to a web app.
@@ -66,3 +67,6 @@ Our model can predict the data by using XGBoost we can get better accuracy compa
 
 
 
+=======
+# Caloris-Burn-Prediction
+>>>>>>> 4aa1d80cafbe5dd5408a608294370fac1fe88fba
